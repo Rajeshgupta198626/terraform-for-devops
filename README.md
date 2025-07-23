@@ -3,6 +3,7 @@ This repository is your one stop solution for Terraform for DevOps Engineers
 
 Terraform Commands - Complete Guide
 1. Setup & Initialization
+
 Install Terraform
 # Linux & macOS
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
@@ -10,11 +11,15 @@ sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(l
 sudo apt-get update && sudo apt-get install terraform
 
 # Verify Installation
+
 terraform -v
 Initialize Terraform
 terraform init
 Downloads provider plugins
 Sets up the working directory
+
+
+
 2. Terraform Core Commands
 Format & Validate Code
 terraform fmt       # Formats Terraform code
@@ -26,6 +31,9 @@ terraform apply -auto-approve  # Applies without manual confirmation
 Destroy Infrastructure
 terraform destroy  # Destroys all managed resources
 terraform destroy -auto-approve  # Without confirmation
+
+
+
 3. Managing Terraform State
 Check Current State
 terraform state list  # Lists all managed resources
