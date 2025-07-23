@@ -12,3 +12,9 @@ variable "ami" {
     description = "value of the ami"
     type = string
 }
+
+variable "instance_count" {
+    description = "number of instance"
+    type = number
+}
+
